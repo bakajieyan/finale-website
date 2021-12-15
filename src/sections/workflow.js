@@ -45,72 +45,66 @@ const data = [
     },
     {
         id: 7,
-        title: 'Token Website Launch',
-        text:
-            'Milestone 6',
-    },
-    {
-        id: 8,
         title: 'Token Launch',
         text:
             'Milestone 7',
     },
     {
-        id: 9,
+        id: 8,
         title: 'Seed Investment Round',
         text:
             'Milestone 8',
     },
     {
-        id: 10,
+        id: 9,
         title: 'Token Private Sale',
         text:
             'Milestone 9',
     },
     {
-        id: 11,
+        id: 10,
         title: 'Token Public Sale',
         text:
             'Milestone 10',
     },
     {
-        id: 12,
+        id: 11,
         title: 'Establishing AAG Headquarters',
         text:
             'Milestone 11',
     },
     {
-        id: 13,
+        id: 12,
         title: 'Scale up 4K Scholars',
         text:
             'Milestone 12',
     },
     {
-        id: 14,
+        id: 13,
         title: 'Partnership with Emerging Games',
         text:
             'Milestone 13',
     },
     {
-        id: 15,
+        id: 14,
         title: 'Launch Token Staking',
         text:
-            'Milestone 10',
+            'Milestone 14',
+    },
+    {
+        id: 15,
+        title: 'Community Governance',
+        text:
+            'Milestone 15',
     },
     {
         id: 16,
-        title: 'Community Governance',
+        title: 'Token Burning',
         text:
-            'Milestone 10',
+            'Milestone 16',
     },
     {
         id: 17,
-        title: 'Token Burning',
-        text:
-            'Milestone 10',
-    },
-    {
-        id: 18,
         title: 'Future Plans',
         text:
             '',
