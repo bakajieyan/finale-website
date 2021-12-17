@@ -11,6 +11,7 @@ import Member3 from 'assets/team/josh.png';
 import Member4 from 'assets/team/nobody.png';
 import Member5 from 'assets/team/yuki.png';
 import Member6 from 'assets/team/loi.png';
+import Member7 from 'assets/team/jie.png';
 
 const data = [
     {
@@ -172,6 +173,27 @@ const data = [
                 name: 'telegram',
                 path: 'https://t.me/loisagatchalian',
                 icon: <FaTelegram />
+            },
+        ],
+    },
+    {
+        id: 7,
+        imgSrc: Member7,
+        altText: 'Jie',
+        title: 'Jie',
+        designation: 'Developer',
+        socialProfile: [
+            {
+                id: 1,
+                name: 'facebook',
+                path: 'https://www.facebook.com/helpivebeencompromised',
+                icon: <FaFacebookF />,
+            },
+            {
+                id: 2,
+                name: 'twitter',
+                path: 'https://twitter.com/jlryrsls',
+                icon: <FaTwitter />,
             },
         ],
     },

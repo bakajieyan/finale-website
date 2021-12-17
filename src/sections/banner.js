@@ -23,6 +23,7 @@ export default function Banner() {
                     <Heading as="h1" variant='heroPrimary'>
                         Ape Army Guild
           </Heading>
+          <h3>"Building a planet where Apes will evolve from Men"</h3>
                     <Text as="p" variant="heroSecondary">
                     Ape Army Guild is a Decentralized Autonomous Organization where creators, investors, P2E games, NFTs and Communities interact together</Text>
                     <Button to='roadmap' variant="primary">
