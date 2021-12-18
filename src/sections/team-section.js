@@ -12,6 +12,7 @@ import Member4 from 'assets/team/nobody.png';
 import Member5 from 'assets/team/yuki.png';
 import Member6 from 'assets/team/loi.png';
 import Member7 from 'assets/team/jie.png';
+import Member8 from 'assets/team/daniel.png';
 
 const data = [
     {
@@ -193,6 +194,27 @@ const data = [
                 id: 2,
                 name: 'twitter',
                 path: 'https://twitter.com/jlryrsls',
+                icon: <FaTwitter />,
+            },
+        ],
+    },
+    {
+        id: 8,
+        imgSrc: Member8,
+        altText: 'Daniel',
+        title: 'Daniel',
+        designation: 'Lead Adviser',
+        socialProfile: [
+            {
+                id: 1,
+                name: 'facebook',
+                path: '',
+                icon: <FaFacebookF />,
+            },
+            {
+                id: 2,
+                name: 'twitter',
+                path: '',
                 icon: <FaTwitter />,
             },
         ],
