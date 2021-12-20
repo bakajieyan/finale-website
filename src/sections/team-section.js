@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaInstagram, FaTelegram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaTelegram, FaLinkedinIn } from 'react-icons/fa';
 
 import Member1 from 'assets/team/prof.png';
 import Member2 from 'assets/team/kaido.png';
@@ -207,15 +207,9 @@ const data = [
         socialProfile: [
             {
                 id: 1,
-                name: 'facebook',
-                path: '',
-                icon: <FaFacebookF />,
-            },
-            {
-                id: 2,
-                name: 'twitter',
-                path: '',
-                icon: <FaTwitter />,
+                name: 'linkedin',
+                path: 'https://linkedin.com/in/daniel-crowley-14709a108?trk=org-employees',
+                icon: <FaLinkedinIn />,
             },
         ],
     },
