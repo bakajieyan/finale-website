@@ -19,13 +19,9 @@ export default function Banner2() {
                     Track all your scholars in one place. With our set of tools, you can track multiple accounts on their SLP daily average, win rates, amount of battles in PVE and PVP for player management. More management tools to come.
                         </Text>
                     <Button variant="primary">
-                        <Link to="/tracker"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}>
-                            Use Tool
-                        </Link>
+                        <a sx={styles.a} href="https://tracker.apearmyguild.io/#/">
+                            Use tool
+                            </a>
                     </Button>
                 </Box>
                 <Box sx={styles.banner.imageBox}>
@@ -37,6 +33,10 @@ export default function Banner2() {
 }
 
 const styles = {
+    a: {
+        textDecoration: "none",
+        color: "white"
+    },
     banner: {
         pt: ["140px", "145px", "155px", "170px", null, null, "180px", "215px"],
         pb: [2, null, 0, null, 2, 0, null, 5],
